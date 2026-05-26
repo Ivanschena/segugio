@@ -54,4 +54,4 @@ poetry lock --no-cache --regenerate
 poetry install
 ```
 
-Il consiglio generale per Windows: se usi Python 3.12 o 3.13, molti pacchetti con componenti C (yarl, aiohttp, pydantic-core) faticano perché le wheel arrivano in ritardo su PyPI. **Python 3.11 è ancora il punto più sicuro** per la compatibilità con l'ecosistema AI/async.
+Il consiglio generale per Windows: se usi Python 3.12 o 3.13, molti pacchetti con componenti C (yarl, aiohttp, pydantic-core) faticano perché le wheel arrivano in ritardo su PyPI. **Python 3.11 è ancora il punto più sicuro** per la compatibilità con l'ecosistema AI/async.# segugio
