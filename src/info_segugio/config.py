@@ -7,6 +7,7 @@ class Config:
     DOCUMENTS_DIR = "resumes"
     COLLECTION_NAME = "CVs"
     PERSISTENT_DIR = "data/chromadb"
+    tavily_key = os.getenv("TAVILY_API_KEY")
     # Embedding
     MODEL_NAME = "text-embedding-3-small" #"all-mpnet-base-v2" per ollama
     OPENAI_KEY = os.getenv("OPENAI_API_KEY")
