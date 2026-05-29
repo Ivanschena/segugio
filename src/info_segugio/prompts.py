@@ -8,7 +8,6 @@ Argomento da ricercare:
 
 Rispondi con un oggetto JSON nel seguente formato:
 {{
-
     "query" : "La query di ricerca ottimizzata",
     "aspect" : "L'aspetto specifico su cui ti stai concentrando",
     "reason" : "Spiega perchè hai scelto questa formulazione"
